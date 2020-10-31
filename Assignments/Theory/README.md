@@ -1,4 +1,4 @@
-# Sample Readme.md file for Assignment3
+# Sample Readme.md file for this directory
 
 #### ***Readme.md file will be updated later***
 
