@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toastBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingTop="15dp"
+        android:layout_margin="8dp"
+        android:paddingBottom="15dp"
+        android:text="@string/toast"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/countText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/_0"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="155sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorBg"
+        android:layout_below="@id/toastBtn"
+        android:layout_above="@id/countBtn"/>
+
+    <Button
+        android:id="@+id/countBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="@string/count"
+        android:textColor="#FFF"
+        android:layout_margin="8dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>
