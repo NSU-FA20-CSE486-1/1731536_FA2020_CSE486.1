@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(R.layout.activity_main_coding_challenge);
+        //setContentView(R.layout.activity_main_coding_challange);  //coding challange layout
         toastBtn = findViewById(R.id.toastBtn);
         countTextView = findViewById(R.id.countText);
         countBtn = findViewById(R.id.countBtn);
