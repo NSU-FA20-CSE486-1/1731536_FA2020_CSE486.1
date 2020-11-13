@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UserLoginAssignment</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login_text">Enter your login credentials to access your account</string>
+    <string name="placeholder_user">User!</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+</resources>
