@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/itemBtn0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_rice"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_bread"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_flour"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_spice"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_cheese"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_milk"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_cereals"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_soda"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_apple"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/itemBtn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_border"
+                android:drawableStart="@drawable/ic_cookie"
+                android:drawablePadding="-5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:onClick="AddItem"
+                android:padding="15dp"
+                android:text="Item Name"
+                android:textColor="@color/colorBorder"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
