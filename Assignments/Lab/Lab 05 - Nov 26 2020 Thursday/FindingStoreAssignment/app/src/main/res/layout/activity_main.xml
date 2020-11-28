@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/searchlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true">
+        <EditText
+            android:id="@+id/searchET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter store name..."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/montserrat_medium"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Store"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="15dp"
+            android:textColor="#FFF"
+            android:background="@color/colorSearch"
+            android:textSize="16dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:onClick="SearchStore"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/emptyTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="@string/shopping_cart_is_empty"
+        android:layout_centerInParent="true"/>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/searchlayout"
+        android:layout_above="@id/addItemButton">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tv0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textview_border"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:text="Empty"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="15dp"
+        android:textColor="#FFF"
+        android:background="@color/colorBorder"
+        android:textSize="16dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="StartSecondActivity"/>
+
+</RelativeLayout>

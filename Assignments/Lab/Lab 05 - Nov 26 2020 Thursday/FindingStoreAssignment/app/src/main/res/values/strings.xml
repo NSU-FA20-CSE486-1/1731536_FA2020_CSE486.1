@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shopping Cart</string>
+    <string name="shopping_cart_is_empty">Shopping cart is empty!</string>
+    <string-array name="itemlist">
+    <item>Rice</item>
+    <item>Bread</item>
+    <item>Flour</item>
+    <item>Spice</item>
+    <item>Cheese</item>
+    <item>Milk</item>
+    <item>Cereals</item>
+    <item>Soda</item>
+    <item>Apple</item>
+    <item>Cookie</item>
+    </string-array>
+</resources>
